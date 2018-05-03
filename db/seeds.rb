@@ -1,0 +1,61 @@
+# This file should contain all the record creation needed to seed the database with its default values.
+# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
+#
+# Examples:
+#
+#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
+#   Character.create(name: 'Luke', movie: movies.first)
+states = State.create([
+  { name: 'Alabama', abbrev: 'AL', sq_miles: 52420 },
+  { name: 'Alaska', abbrev: 'AK', sq_miles: 665384 },
+  { name: 'Arizona', abbrev: 'AZ', sq_miles: 113990 },
+  { name: 'Arkansas', abbrev: 'AR', sq_miles: 53179 },
+  { name: 'California', abbrev: 'CA', sq_miles: 163695 },
+  { name: 'Colorado', abbrev: 'CO', sq_miles: 104094 },
+  { name: 'Connecticut', abbrev: 'CT', sq_miles: 5543 },
+  { name: 'Delaware', abbrev: 'DE', sq_miles: 2489 },
+  { name: 'District of Columbia', abbrev: 'DC', sq_miles: 68 },
+  { name: 'Florida', abbrev: 'FL', sq_miles: 65758 },
+  { name: 'Georgia', abbrev: 'GA', sq_miles: 59425 },
+  { name: 'Hawaii', abbrev: 'HI', sq_miles: 10932 },
+  { name: 'Idaho', abbrev: 'ID', sq_miles: 83569 },
+  { name: 'Illinois', abbrev: 'IL', sq_miles: 57914 },
+  { name: 'Indiana', abbrev: 'IN', sq_miles: 36420 },
+  { name: 'Iowa', abbrev: 'IA', sq_miles: 56273 },
+  { name: 'Kansas', abbrev: 'KS', sq_miles: 82278 },
+  { name: 'Kentucky', abbrev: 'KY', sq_miles: 40408 },
+  { name: 'Louisiana', abbrev: 'LA', sq_miles: 52378 },
+  { name: 'Maine', abbrev: 'ME', sq_miles: 35380 },
+  { name: 'Maryland', abbrev: 'MD', sq_miles: 12406 },
+  { name: 'Massachusetts', abbrev: 'MA', sq_miles: 10554 },
+  { name: 'Michigan', abbrev: 'MI', sq_miles: 96714 },
+  { name: 'Minnesota', abbrev: 'MN', sq_miles: 86936 },
+  { name: 'Mississippi', abbrev: 'MS', sq_miles: 48432 },
+  { name: 'Missouri', abbrev: 'MO', sq_miles: 69707 },
+  { name: 'Montana', abbrev: 'MT', sq_miles: 147040 },
+  { name: 'Nebraska', abbrev: 'NE', sq_miles: 77348 },
+  { name: 'Nevada', abbrev: 'NV', sq_miles: 110572 },
+  { name: 'New Hampshire', abbrev: 'NH', sq_miles: 9349 },
+  { name: 'New Jersey', abbrev: 'NJ', sq_miles: 8723 },
+  { name: 'New Mexico', abbrev: 'NM', sq_miles: 121590 },
+  { name: 'New York', abbrev: 'NY', sq_miles: 54555 },
+  { name: 'North Carolina', abbrev: 'NC', sq_miles: 53819 },
+  { name: 'North Dakota', abbrev: 'ND', sq_miles: 70698 },
+  { name: 'Ohio', abbrev: 'OH', sq_miles: 44826 },
+  { name: 'Oklahoma', abbrev: 'OK', sq_miles: 69899 },
+  { name: 'Oregon', abbrev: 'OR', sq_miles: 98379 },
+  { name: 'Pennsylvania', abbrev: 'PA', sq_miles: 46054 },
+  { name: 'Rhode Island', abbrev: 'RI', sq_miles: 1545 },
+  { name: 'South Carolina', abbrev: 'SC', sq_miles: 32020 },
+  { name: 'South Dakota', abbrev: 'SD', sq_miles: 77116 },
+  { name: 'Tennessee', abbrev: 'TN', sq_miles: 42144 },
+  { name: 'Texas', abbrev: 'TX', sq_miles: 268596 },
+  { name: 'Utah', abbrev: 'UT', sq_miles: 84897 },
+  { name: 'Vermont', abbrev: 'VT', sq_miles: 9616 },
+  { name: 'Washington', abbrev: 'WA', sq_miles: 71298 },
+  { name: 'West Virginia', abbrev: 'WV', sq_miles: 24230 },
+  { name: 'Wisconson', abbrev: 'WI', sq_miles: 63496 },
+  { name: 'Wyoming', abbrev: 'WY', sq_miles: 97813 },
+  { name: 'Puerto Rico', abbrev: 'PR', sq_miles: 5325 }
+  ])
+
